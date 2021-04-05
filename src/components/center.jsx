@@ -1,6 +1,8 @@
-import React from 'react';
-import centerStyles from './center.module.scss';
+import React from "react";
+import centerStyles from "./center.module.scss";
 
-export default ({ children }) => (
+const Center = ({ children }) => (
   <div className={centerStyles.container}>{children}</div>
 );
+
+export default Center;

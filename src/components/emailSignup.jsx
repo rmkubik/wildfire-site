@@ -1,7 +1,7 @@
-import React from 'react';
-import emailSignUpStyles from './emailSignUp.module.scss';
+import React from "react";
+import emailSignUpStyles from "./emailSignUp.module.scss";
 
-export default ({ label }) => (
+const EmailSignup = ({ label }) => (
   <div id="mc_embed_signup" className={emailSignUpStyles.container}>
     <form
       action="https://ryankubik.us17.list-manage.com/subscribe/post?u=9b8c018898653292cbe3711f0&amp;id=57cdfbb895"
@@ -36,29 +36,31 @@ export default ({ label }) => (
           <div
             className="response"
             id="mce-error-response"
-            style={{ display: 'none' }}
+            style={{ display: "none" }}
           />
           <div
             className="response"
             id="mce-success-response"
-            style={{ display: 'none' }}
+            style={{ display: "none" }}
           />
         </div>
         <div
-          style={{ position: 'absolute', left: '-5000px' }}
+          style={{ position: "absolute", left: "-5000px" }}
           aria-hidden="true"
         >
           <input
             type="text"
             name="b_9b8c018898653292cbe3711f0_57cdfbb895"
             tabIndex="-1"
-            value=""
+            defaultValue=""
           />
         </div>
       </div>
     </form>
   </div>
 );
+
+export default EmailSignup;
 
 /*
 export default ({ label }) => (
