@@ -19,5 +19,8 @@
     "react-helmet": "^6.1.0",
     "react-tweet-embed": "^1.2.2",
     "sass": "^1.32.8"
+  },
+  "devDependencies": {
+    "@netlify/plugin-nextjs": "^3.0.3"
   }
 }
