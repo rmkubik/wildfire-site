@@ -14,6 +14,8 @@
 
 # production
 /build
+# This file is built during the build step
+/public/presskit.zip
 
 # misc
 .DS_Store

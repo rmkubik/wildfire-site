@@ -7,3 +7,4 @@ export { default as Header } from "./header";
 export { default as SectionList } from "./sectionList";
 export * from "./grid";
 export { default as Image } from "./images";
+export { default as DownloadButton } from "./downloadButton";
