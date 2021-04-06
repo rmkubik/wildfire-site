@@ -6,7 +6,7 @@ export default {
   card: {
     title: "Wildfire Swap: Solve puzzles to put out fires",
     description:
-      "Protect people's homes from raging forest fires by tile-swapping your way out of tricky puzzles in Wildfire Swap.",
+      "Swap tiles, fight fires! Consider your moves carefully: fire spreads fast, and an out-of-control fire is unstoppable.",
     image: "",
   },
 };
