@@ -8,3 +8,5 @@ export { default as SectionList } from "./sectionList";
 export * from "./grid";
 export { default as Image } from "./images";
 export { default as DownloadButton } from "./downloadButton";
+export { default as SocialJoin } from "./socialJoin";
+export { default as Row } from "./row";
