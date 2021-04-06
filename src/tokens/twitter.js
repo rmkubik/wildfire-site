@@ -7,6 +7,6 @@ export default {
     title: "Wildfire Swap: Solve puzzles to put out fires",
     description:
       "Swap tiles, fight fires! Consider your moves carefully: fire spreads fast, and an out-of-control fire is unstoppable.",
-    image: "",
+    image: "https://wildfire.fun/assets/images/main-capsule-image.png",
   },
 };
